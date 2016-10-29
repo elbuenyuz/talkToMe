@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E99F7D91DC417BC00EC9304 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E99F7D51DC417BC00EC9304 /* NotoSans-Bold.ttf */; };
+		8E99F7DA1DC417BC00EC9304 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E99F7D61DC417BC00EC9304 /* NotoSans-BoldItalic.ttf */; };
+		8E99F7DB1DC417BC00EC9304 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E99F7D71DC417BC00EC9304 /* NotoSans-Italic.ttf */; };
+		8E99F7DC1DC417BC00EC9304 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E99F7D81DC417BC00EC9304 /* NotoSans-Regular.ttf */; };
 		8E9A9B641DBE898A00B15003 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9A9B631DBE898A00B15003 /* AppDelegate.swift */; };
 		8E9A9B661DBE898A00B15003 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9A9B651DBE898A00B15003 /* ViewController.swift */; };
 		8E9A9B691DBE898A00B15003 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E9A9B671DBE898A00B15003 /* Main.storyboard */; };
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E99F7D51DC417BC00EC9304 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		8E99F7D61DC417BC00EC9304 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		8E99F7D71DC417BC00EC9304 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		8E99F7D81DC417BC00EC9304 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
 		8E9A9B601DBE898A00B15003 /* talkToMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = talkToMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E9A9B631DBE898A00B15003 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E9A9B651DBE898A00B15003 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +84,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E99F7D01DC3CE6300EC9304 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8E99F7D11DC3CFC400EC9304 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8E99F7D21DC3CFCB00EC9304 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8E9A9B651DBE898A00B15003 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8E99F7D31DC3CFD900EC9304 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		8E99F7D41DC3CFF000EC9304 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8E99F7D51DC417BC00EC9304 /* NotoSans-Bold.ttf */,
+				8E99F7D61DC417BC00EC9304 /* NotoSans-BoldItalic.ttf */,
+				8E99F7D71DC417BC00EC9304 /* NotoSans-Italic.ttf */,
+				8E99F7D81DC417BC00EC9304 /* NotoSans-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		8E9A9B571DBE898A00B15003 = {
 			isa = PBXGroup;
 			children = (
@@ -99,8 +147,12 @@
 		8E9A9B621DBE898A00B15003 /* talkToMe */ = {
 			isa = PBXGroup;
 			children = (
+				8E99F7D21DC3CFCB00EC9304 /* Controller */,
+				8E99F7D11DC3CFC400EC9304 /* View */,
+				8E99F7D01DC3CE6300EC9304 /* Model */,
+				8E99F7D31DC3CFD900EC9304 /* Util */,
+				8E99F7D41DC3CFF000EC9304 /* Resources */,
 				8E9A9B631DBE898A00B15003 /* AppDelegate.swift */,
-				8E9A9B651DBE898A00B15003 /* ViewController.swift */,
 				8E9A9B671DBE898A00B15003 /* Main.storyboard */,
 				8E9A9B6D1DBE898A00B15003 /* Assets.xcassets */,
 				8E9A9B6F1DBE898A00B15003 /* LaunchScreen.storyboard */,
@@ -235,9 +287,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E99F7D91DC417BC00EC9304 /* NotoSans-Bold.ttf in Resources */,
 				8E9A9B711DBE898A00B15003 /* LaunchScreen.storyboard in Resources */,
+				8E99F7DA1DC417BC00EC9304 /* NotoSans-BoldItalic.ttf in Resources */,
+				8E99F7DB1DC417BC00EC9304 /* NotoSans-Italic.ttf in Resources */,
 				8E9A9B6E1DBE898A00B15003 /* Assets.xcassets in Resources */,
 				8E9A9B691DBE898A00B15003 /* Main.storyboard in Resources */,
+				8E99F7DC1DC417BC00EC9304 /* NotoSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +547,7 @@
 				8E9A9B8D1DBE898A00B15003 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E9A9B8E1DBE898A00B15003 /* Build configuration list for PBXNativeTarget "talkToMeTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +556,7 @@
 				8E9A9B901DBE898A00B15003 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E9A9B911DBE898A00B15003 /* Build configuration list for PBXNativeTarget "talkToMeUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +565,7 @@
 				8E9A9B931DBE898A00B15003 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
