@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E5F918D1DC7EA4600A511CA /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5F91891DC7EA4600A511CA /* Bolts.framework */; };
+		8E5F918E1DC7EA4600A511CA /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5F918A1DC7EA4600A511CA /* FBSDKCoreKit.framework */; };
+		8E5F918F1DC7EA4600A511CA /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5F918B1DC7EA4600A511CA /* FBSDKLoginKit.framework */; };
+		8E5F91901DC7EA4600A511CA /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5F918C1DC7EA4600A511CA /* FBSDKShareKit.framework */; };
 		8E99F7D91DC417BC00EC9304 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E99F7D51DC417BC00EC9304 /* NotoSans-Bold.ttf */; };
 		8E99F7DA1DC417BC00EC9304 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E99F7D61DC417BC00EC9304 /* NotoSans-BoldItalic.ttf */; };
 		8E99F7DB1DC417BC00EC9304 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E99F7D71DC417BC00EC9304 /* NotoSans-Italic.ttf */; };
@@ -23,6 +27,11 @@
 		8E9A9B711DBE898A00B15003 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E9A9B6F1DBE898A00B15003 /* LaunchScreen.storyboard */; };
 		8E9A9B7C1DBE898A00B15003 /* talkToMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9A9B7B1DBE898A00B15003 /* talkToMeTests.swift */; };
 		8E9A9B871DBE898A00B15003 /* talkToMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9A9B861DBE898A00B15003 /* talkToMeUITests.swift */; };
+		8EA144721DCD204000F5D345 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA144711DCD204000F5D345 /* FeedVC.swift */; };
+		8EA144741DCD223000F5D345 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA144731DCD223000F5D345 /* PostCell.swift */; };
+		8EFD3B891DC9932300C5D922 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFD3B881DC9932300C5D922 /* DataService.swift */; };
+		8EFD3B8B1DC9B0C900C5D922 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8EFD3B8A1DC9B0C900C5D922 /* GoogleService-Info.plist */; };
+		A1012A75957AA74BAF6C245A /* Pods_talkToMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE243131B673B36725AE0D88 /* Pods_talkToMe.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +52,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D2B154F9AD46DD1854F8063 /* Pods-talkToMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-talkToMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-talkToMe/Pods-talkToMe.release.xcconfig"; sourceTree = "<group>"; };
+		8E5F91891DC7EA4600A511CA /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		8E5F918A1DC7EA4600A511CA /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		8E5F918B1DC7EA4600A511CA /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		8E5F918C1DC7EA4600A511CA /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
 		8E99F7D51DC417BC00EC9304 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
 		8E99F7D61DC417BC00EC9304 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 		8E99F7D71DC417BC00EC9304 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
@@ -65,6 +79,13 @@
 		8E9A9B821DBE898A00B15003 /* talkToMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = talkToMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E9A9B861DBE898A00B15003 /* talkToMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = talkToMeUITests.swift; sourceTree = "<group>"; };
 		8E9A9B881DBE898A00B15003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EA144711DCD204000F5D345 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		8EA144731DCD223000F5D345 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		8EE4ADD61DC7B4610083B512 /* talkToMe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = talkToMe.entitlements; sourceTree = "<group>"; };
+		8EFD3B881DC9932300C5D922 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		8EFD3B8A1DC9B0C900C5D922 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CEC046E3CD92D541B7D55D10 /* Pods-talkToMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-talkToMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-talkToMe/Pods-talkToMe.debug.xcconfig"; sourceTree = "<group>"; };
+		DE243131B673B36725AE0D88 /* Pods_talkToMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_talkToMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +93,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1012A75957AA74BAF6C245A /* Pods_talkToMe.framework in Frameworks */,
+				8E5F918E1DC7EA4600A511CA /* FBSDKCoreKit.framework in Frameworks */,
+				8E5F91901DC7EA4600A511CA /* FBSDKShareKit.framework in Frameworks */,
+				8E5F918F1DC7EA4600A511CA /* FBSDKLoginKit.framework in Frameworks */,
+				8E5F918D1DC7EA4600A511CA /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +118,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DC583CB2BF33D3E19FAEE02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE243131B673B36725AE0D88 /* Pods_talkToMe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8E99F7D01DC3CE6300EC9304 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +139,7 @@
 				8E99F7DD1DC4464A00EC9304 /* MaterialView.swift */,
 				8E99F7E11DC44B7B00EC9304 /* MaterialButton.swift */,
 				8E99F7E31DC4532A00EC9304 /* MatrerialTextField.swift */,
+				8EA144731DCD223000F5D345 /* PostCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -113,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				8E9A9B651DBE898A00B15003 /* ViewController.swift */,
+				8EA144711DCD204000F5D345 /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -136,6 +172,17 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		8E99F7E51DC5355500EC9304 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E5F91891DC7EA4600A511CA /* Bolts.framework */,
+				8E5F918A1DC7EA4600A511CA /* FBSDKCoreKit.framework */,
+				8E5F918B1DC7EA4600A511CA /* FBSDKLoginKit.framework */,
+				8E5F918C1DC7EA4600A511CA /* FBSDKShareKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8E9A9B571DBE898A00B15003 = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +190,8 @@
 				8E9A9B7A1DBE898A00B15003 /* talkToMeTests */,
 				8E9A9B851DBE898A00B15003 /* talkToMeUITests */,
 				8E9A9B611DBE898A00B15003 /* Products */,
+				90713B960748C5A36639A95A /* Pods */,
+				2DC583CB2BF33D3E19FAEE02 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -159,6 +208,9 @@
 		8E9A9B621DBE898A00B15003 /* talkToMe */ = {
 			isa = PBXGroup;
 			children = (
+				8EFD3B871DC992EA00C5D922 /* Services */,
+				8EE4ADD61DC7B4610083B512 /* talkToMe.entitlements */,
+				8E99F7E51DC5355500EC9304 /* Frameworks */,
 				8E99F7D21DC3CFCB00EC9304 /* Controller */,
 				8E99F7D11DC3CFC400EC9304 /* View */,
 				8E99F7D01DC3CE6300EC9304 /* Model */,
@@ -169,6 +221,7 @@
 				8E9A9B6D1DBE898A00B15003 /* Assets.xcassets */,
 				8E9A9B6F1DBE898A00B15003 /* LaunchScreen.storyboard */,
 				8E9A9B721DBE898A00B15003 /* Info.plist */,
+				8EFD3B8A1DC9B0C900C5D922 /* GoogleService-Info.plist */,
 				8E9A9B6A1DBE898A00B15003 /* talkToMe.xcdatamodeld */,
 			);
 			path = talkToMe;
@@ -192,6 +245,23 @@
 			path = talkToMeUITests;
 			sourceTree = "<group>";
 		};
+		8EFD3B871DC992EA00C5D922 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8EFD3B881DC9932300C5D922 /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		90713B960748C5A36639A95A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEC046E3CD92D541B7D55D10 /* Pods-talkToMe.debug.xcconfig */,
+				6D2B154F9AD46DD1854F8063 /* Pods-talkToMe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -199,9 +269,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E9A9B8B1DBE898A00B15003 /* Build configuration list for PBXNativeTarget "talkToMe" */;
 			buildPhases = (
+				A75F029C055D49401C7BF53B /* [CP] Check Pods Manifest.lock */,
 				8E9A9B5C1DBE898A00B15003 /* Sources */,
 				8E9A9B5D1DBE898A00B15003 /* Frameworks */,
 				8E9A9B5E1DBE898A00B15003 /* Resources */,
+				F0441021CD76F0EE24D59AD5 /* [CP] Embed Pods Frameworks */,
+				DCD7B97997012AE1AC6674BF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -261,6 +334,11 @@
 					8E9A9B5F1DBE898A00B15003 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 83M9X3N895;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					8E9A9B761DBE898A00B15003 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -300,6 +378,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E99F7D91DC417BC00EC9304 /* NotoSans-Bold.ttf in Resources */,
+				8EFD3B8B1DC9B0C900C5D922 /* GoogleService-Info.plist in Resources */,
 				8E9A9B711DBE898A00B15003 /* LaunchScreen.storyboard in Resources */,
 				8E99F7DA1DC417BC00EC9304 /* NotoSans-BoldItalic.ttf in Resources */,
 				8E99F7DB1DC417BC00EC9304 /* NotoSans-Italic.ttf in Resources */,
@@ -325,11 +404,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A75F029C055D49401C7BF53B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DCD7B97997012AE1AC6674BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-talkToMe/Pods-talkToMe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0441021CD76F0EE24D59AD5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-talkToMe/Pods-talkToMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8E9A9B5C1DBE898A00B15003 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EA144721DCD204000F5D345 /* FeedVC.swift in Sources */,
 				8E99F7E01DC446DA00EC9304 /* Constants.swift in Sources */,
 				8E9A9B661DBE898A00B15003 /* ViewController.swift in Sources */,
 				8E99F7E41DC4532A00EC9304 /* MatrerialTextField.swift in Sources */,
@@ -337,6 +465,8 @@
 				8E9A9B6C1DBE898A00B15003 /* talkToMe.xcdatamodeld in Sources */,
 				8E9A9B641DBE898A00B15003 /* AppDelegate.swift in Sources */,
 				8E99F7DE1DC4464A00EC9304 /* MaterialView.swift in Sources */,
+				8EFD3B891DC9932300C5D922 /* DataService.swift in Sources */,
+				8EA144741DCD223000F5D345 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,8 +608,16 @@
 		};
 		8E9A9B8C1DBE898A00B15003 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEC046E3CD92D541B7D55D10 /* Pods-talkToMe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = talkToMe/talkToMe.entitlements;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/talkToMe",
+				);
 				INFOPLIST_FILE = talkToMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.simpleCoding.talkToMe;
@@ -489,8 +627,16 @@
 		};
 		8E9A9B8D1DBE898A00B15003 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D2B154F9AD46DD1854F8063 /* Pods-talkToMe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = talkToMe/talkToMe.entitlements;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/talkToMe",
+				);
 				INFOPLIST_FILE = talkToMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.simpleCoding.talkToMe;

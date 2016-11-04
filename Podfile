@@ -1,20 +1,15 @@
-# Uncomment this line to define a global platform for your project
-# platform :ios, '9.0'
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+use_frameworks!
 
-target 'talkToMe' do
-  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
-  use_frameworks!
-
-  # Pods for talkToMe
-
-  target 'talkToMeTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'talkToMeUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
+target ‘talkToMe’ do
+    	
+pod 'FBSDKCoreKit', '~> 4.15.1'
+pod 'FBSDKShareKit', '~> 4.15.1'
+pod 'FBSDKLoginKit', '~> 4.15.1'
+pod 'Firebase/Core'
+pod ‘Firebase/Database’
+pod 'Firebase/Auth'
+pod 'Firebase’,’>= 2.5.1’
 end
+
